@@ -35,4 +35,6 @@ ending in the second place
 6. measure the quality of the generalization and
 improve it if necessary.
 
-A jupyter notebook performing the first step can be found [here](https://github.com/csmontt/trajectory-generalization/blob/master/trajectory_generalization.ipynb). In it, I transformed the raw GPS data into linestrins using the [movingpandas](https://github.com/anitagraser/movingpandas) library from Dr. Anita Graser, though, maybe it is not actually necessary.
+A jupyter notebook performing the first step can be found [here](https://github.com/csmontt/trajectory-generalization/blob/master/trajectory_generalization.ipynb). There I transformed the raw GPS data into linestrings using the [movingpandas](https://github.com/anitagraser/movingpandas) library from Dr. Anita Graser. This step may not be necessary but since I performed the first step based on her [own implementation of the paper's algorithm](https://anitagraser.com/2017/10/13/movement-data-in-gis-extra-trajectory-generalization-code-and-sample-data/), I had to use it. 
+
+Is important to note that her implementation does not result in the same outcome as the implementation shown in the paper, as she skips some steps (e.g. steps 3 and 4). I would like to replicate the complete workflow shown in the paper.
