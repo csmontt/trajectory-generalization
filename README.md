@@ -35,4 +35,4 @@ ending in the second place
 6. measure the quality of the generalization and
 improve it if necessary.
 
-
+A jupyter notebook performing the first step can be found [here](https://github.com/csmontt/trajectory-generalization/blob/master/trajectory_generalization.ipynb). In it, I transformed the raw GPS data into linestrins using the [movingpandas](https://github.com/anitagraser/movingpandas) library from Dr. Anita Graser, though, maybe it is not actually necessary.
