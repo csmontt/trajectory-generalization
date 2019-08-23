@@ -4,16 +4,16 @@ The raw input corresponds to GPS data. For each user id a trajectory = {P_1, P_2
 
 The steps for generalizing trajectories can be found in  the paper:
 
-@article{adrienko2010spatial,
-  title={Spatial generalization and aggregation of massive movement data},
-  author={Adrienko, Natalia and Adrienko, Gennady},
-  journal={IEEE Transactions on visualization and computer graphics},
-  volume={17},
-  number={2},
-  pages={205--219},
-  year={2010},
-  publisher={IEEE}
-}
+    @article{adrienko2010spatial,
+    title={Spatial generalization and aggregation of massive movement data},
+    author={Adrienko, Natalia and Adrienko, Gennady},
+    journal={IEEE Transactions on visualization and computer graphics},
+    volume={17},
+    number={2},
+    pages={205--219},
+    year={2010},
+    publisher={IEEE}
+    }
 
 These steps are:
 
