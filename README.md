@@ -37,4 +37,6 @@ improve it if necessary.
 
 A jupyter notebook performing the first step can be found [here](https://github.com/csmontt/trajectory-generalization/blob/master/trajectory_generalization.ipynb). There, I transformed the raw GPS data into linestrings using the [movingpandas](https://github.com/anitagraser/movingpandas) library from Dr. Anita Graser. This step may not be necessary, but since I performed the first step based on her [own implementation of the paper's algorithm](https://anitagraser.com/2017/10/13/movement-data-in-gis-extra-trajectory-generalization-code-and-sample-data/) for extracting charactheristic points from trajectories, I had to use it. 
 
+**Update**: When using linestrings instead of a pandas dataframe, the algorithm for extracting charactheristic points was to slow. It was better to just keep the data as a pandas dataframe. That is what I did in this [notebook](https://github.com/csmontt/trajectory-generalization/blob/master/andrienkos%20algorithm%20.ipynb)
+
 Is important to note that her implementation does not result in the same outcome as the implementation shown in the paper, as she skips some steps (e.g. steps 3 and 4). I would like to replicate the complete workflow shown in the paper, not the partial implementation done by Dr. Graser.
